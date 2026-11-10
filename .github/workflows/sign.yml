@@ -1,5 +1,6 @@
 name: sign-one-partition-only
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
     inputs:
