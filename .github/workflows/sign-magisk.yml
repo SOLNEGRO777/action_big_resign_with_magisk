@@ -1,5 +1,6 @@
 name: sign-one-partition-only-magisk
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
     inputs:
