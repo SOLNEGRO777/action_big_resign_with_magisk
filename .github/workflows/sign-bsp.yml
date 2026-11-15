@@ -1,5 +1,6 @@
 name: sign-boot-modem-bsp
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
     inputs:
